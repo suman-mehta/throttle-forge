@@ -1,0 +1,24 @@
+{
+  "name": "throttle-forge",
+  "version": "1.0.0",
+  "description": "Zero-dependency high-performance Token & Leaky Bucket rate limiter and proxy sidecar",
+  "type": "module",
+  "bin": {
+    "throttle-forge": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "rate-limiter",
+    "token-bucket",
+    "leaky-bucket",
+    "proxy",
+    "traffic-shaping"
+  ],
+  "author": "Staff Principal Engineer",
+  "license": "MIT"
+}
